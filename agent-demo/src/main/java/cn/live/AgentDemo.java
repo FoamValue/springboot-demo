@@ -19,9 +19,11 @@ public class AgentDemo {
    * @throws Exception 异常堆栈
    */
   public static void premain(String agentArgs, Instrumentation inst) throws Exception {
+    System.out.println("premain(String agentArgs, Instrumentation inst)");
+    System.out.println("参数:" + agentArgs);
+    System.out.println("参数:" + inst);
 
     AgentBuilder.Transformer transformer = new AgentBuilder.Transformer() {
-
       @Override
       public Builder<?> transform(Builder<?> arg0, TypeDescription arg1, ClassLoader arg2,
           JavaModule arg3) {
@@ -31,10 +33,8 @@ public class AgentDemo {
     };
 
     AgentBuilder.Listener listener = new AgentBuilder.Listener() {
-
       @Override
       public void onComplete(String arg0, ClassLoader arg1, JavaModule arg2, boolean arg3) {
-
       }
 
       @Override
@@ -56,7 +56,12 @@ public class AgentDemo {
       }
     };
 
-    new AgentBuilder.Default().type(ElementMatchers.nameStartsWith("cn.live")).transform(transformer).with(listener)
-        .installOn(inst);
+    new AgentBuilder.Default().type(ElementMatchers.nameStartsWith("cn.live"))
+        .transform(transformer).with(listener).installOn(inst);
+  }
+
+  public static void premain(String agentArgs) throws Exception {
+//    System.out.println("premain(String agentArgs)");
+//    System.out.println("参数:" + agentArgs);
   }
 }
