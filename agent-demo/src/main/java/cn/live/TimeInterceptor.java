@@ -22,7 +22,7 @@ public class TimeInterceptor {
     try {
       return callable.call();
     } finally {
-      System.out.println(method.getName() + ":" + (System.currentTimeMillis() - start) + "ms");
+      System.out.println(method + " hook :" + (System.currentTimeMillis() - start) + "ms");
     }
   }
 }

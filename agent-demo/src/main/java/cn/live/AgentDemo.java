@@ -56,7 +56,7 @@ public class AgentDemo {
       }
     };
 
-    new AgentBuilder.Default().type(ElementMatchers.any()).transform(transformer).with(listener)
+    new AgentBuilder.Default().type(ElementMatchers.nameStartsWith("cn.live")).transform(transformer).with(listener)
         .installOn(inst);
   }
 }
