@@ -27,5 +27,6 @@
   <modules>
     <module>main-demo</module>
     <module>agent-demo</module>
+    <module>btrace-demo</module>
   </modules>
 </project>
