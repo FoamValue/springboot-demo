@@ -11,10 +11,15 @@ public class DemoController {
 
   @Autowired
   private DemoService demoService;
+  
+  @GetMapping("/demo/zm")
+  public String a() {
+    return "周末刷剧啊，鑫姐！";
+  }
 
   @GetMapping("/demo/hello")
   public String hello() {
-    String rs = demoService.hello("鑫姐");
+    String rs = demoService.hello("鑫姐!");
     try {
       Thread.sleep(2000);
     } catch (InterruptedException e) {
