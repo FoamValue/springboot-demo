@@ -29,5 +29,6 @@
     <module>agent-demo</module>
     <module>byte-buddy-demo</module>
     <module>btrace-demo</module>
+    <module>multi-demo</module>
   </modules>
 </project>
