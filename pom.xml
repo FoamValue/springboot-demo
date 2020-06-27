@@ -30,5 +30,7 @@
     <module>byte-buddy-demo</module>
     <module>btrace-demo</module>
     <module>multi-demo</module>
+    <module>netty-demo</module>
+    <module>curator-demo</module>
   </modules>
 </project>
