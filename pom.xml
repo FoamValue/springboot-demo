@@ -32,5 +32,6 @@
     <module>multi-demo</module>
     <module>netty-demo</module>
     <module>curator-demo</module>
+    <module>kryo-demo</module>
   </modules>
 </project>
