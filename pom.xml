@@ -33,5 +33,6 @@
     <module>netty-demo</module>
     <module>curator-demo</module>
     <module>kryo-demo</module>
+    <module>spi-demo</module>
   </modules>
 </project>
