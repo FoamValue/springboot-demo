@@ -34,5 +34,6 @@
     <module>curator-demo</module>
     <module>kryo-demo</module>
     <module>spi-demo</module>
+      <module>leetcode</module>
   </modules>
 </project>
