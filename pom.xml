@@ -35,5 +35,6 @@
     <module>kryo-demo</module>
     <module>spi-demo</module>
       <module>leetcode</module>
+      <module>dubbo-demo</module>
   </modules>
 </project>
