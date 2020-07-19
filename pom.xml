@@ -36,5 +36,6 @@
     <module>spi-demo</module>
       <module>leetcode</module>
       <module>dubbo-demo</module>
+      <module>tree-demo</module>
   </modules>
 </project>
