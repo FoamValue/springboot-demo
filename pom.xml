@@ -37,5 +37,6 @@
       <module>leetcode</module>
       <module>dubbo-demo</module>
       <module>tree-demo</module>
+      <module>partten-demo</module>
   </modules>
 </project>
