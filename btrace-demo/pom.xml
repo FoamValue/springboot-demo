@@ -14,16 +14,22 @@
       <groupId>org.openjdk.btrace</groupId>
       <artifactId>btrace-client</artifactId>
       <version>2.0.2</version>
+      <scope>system</scope>
+      <systemPath>/Users/chenxinjie/dev/btrace-2.0.2-bin/libs/btrace-client.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>org.openjdk.btrace</groupId>
       <artifactId>btrace-boot</artifactId>
       <version>2.0.2</version>
+      <scope>system</scope>
+      <systemPath>/Users/chenxinjie/dev/btrace-2.0.2-bin/libs/btrace-boot.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>org.openjdk.btrace</groupId>
       <artifactId>btrace-agent</artifactId>
       <version>2.0.2</version>
+      <scope>system</scope>
+      <systemPath>/Users/chenxinjie/dev/btrace-2.0.2-bin/libs/btrace-agent.jar</systemPath>
     </dependency>
   </dependencies>
 
