@@ -1,7 +1,5 @@
 package cn.live.strategy;
 
-import cn.live.factory.Car;
-
 public class CarShopTest {
 
     @org.junit.Test
